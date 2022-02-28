@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+html,body{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: 15px;
+    /* border: 5px solid #000; */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/images/Rectangle\ 112.svg);
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+.nav-container{
+    /* border: 3px solid #ffcf45; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-container  img{
+    margin-left: 2px;
+    align-self: flex-start;
+    margin-top: 22px;
+    width: 100px;
+}
+.nav-container > .nav-1{
+    margin-top: 20px;
+}
+.nav-container > .nav-1 > a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color:  rgba(66, 72, 77, 0.6);
+}
+.nav-container > .active > a{
+    color: #FD8900;
+}
+.nav-container > .login{
+    border: 2px solid #00938A;
+    /* flex:1; */
+    border-radius: 25px;
+    text-align: center;
+    height:max-content;
+}
+.nav-container > .login a{
+    padding: 20px;
+    margin-right: auto;
+    color: #00938A;
+}
+
+.content-container{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   margin-top: 40px;
+}
+.content-body{
+    text-align:center;
+}
+.content-body h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    color: #42484D;
+}
+.content-body p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #42484D;
+}
+.content-body > .content-menu{
+    margin-top: 3rem;
+}
+.content-body > .content-menu a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #00938A;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: #00938A;
+    margin-right: 2rem;
+    
+}
+.next{
+    margin-top: 3rem;
+}
+.next  a button{
+    width: 150px;
+    height: 40px;
+    background: #00938A;
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    border: 0px;
+}
+.content-body > .content-menu button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #00938A;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: #00938A;
+    margin-right: 2rem;
+    width: 150px;
+    cursor: pointer;
+    background-color: #fff;
+    
+}
+.content-paragraph{
+    margin-top: 2rem;
+    margin-bottom: -20px;
+}
+.menu2 p{
+    margin-bottom: -40px;
+}
+.account-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.account-body{
+    max-width: 400px;
+}
+.account-body h2,p,i{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+.account-body  h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    color: #42484D;
+}
+.account-body p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #42484D;
+}
+.form-group label{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+   color: #00938A;
+  
+
+}
+.form-group input{
+    width: 400px;
+    height: 40px;
+    border: 2px solid #00938A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+}
+#done,#google{
+    width: 400px;
+    margin-top: 1rem;
+    height: 40px;
+    background-color: #00938A;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+#google{
+    background-color: #fff;
+    color:#00938A;
+    border: 1px solid #00938A;
+}
+#google img{
+    width: 20px;
+    height: 15px;
+    padding-right: 10px;
+}
+.form-group input[type = "checkbox"] {
+    width: 20px;
+    height: 15px;
+    margin-top: 15px;
+    display: inline;
+}
+.form-group span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #42484D;
+}
+.signin p{
+    color:#00938A;
+}
+.signin a{
+    text-decoration: none;
+    color:#00938A;
+    font-weight: 1000;
+}
